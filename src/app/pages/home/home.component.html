@@ -1,0 +1,18 @@
+<div class="div-home-page">
+  <h1>Le petit Quizz</h1>
+  <div *ngIf="lastUser.nom != ''">
+    <h2 class="last-game">Dernière partie</h2>
+    <p class="last-game">Joueur : {{ lastUser.nom }}</p>
+    <p class="last-game">Points : {{ lastUser.points }}/{{ lastUser.questionRepondues }}</p>
+  </div>
+  <div class="div-start-game">
+    <p for="nameUser">Nom du joueur* :</p>
+    <input class="input-name-user" type="text" id="nameUser" name="nameUser" #nameUser>
+    <button class="button-start-game" (click)="startGame(nameUser.value)">Lancer une partie</button>
+  </div>
+  <div>
+    <h2>Règle du jeu</h2>
+    <p>Pour lancer une partie veuillez saisir un nom utilisateur et cliquer sur le bouton "Lancer une partie".
+    Une fois cela fait répondre aux différentes questions (5 au total). Une bonne réponse rapport 1 points et une mauvaise 0.</p>
+  </div>
+</div>

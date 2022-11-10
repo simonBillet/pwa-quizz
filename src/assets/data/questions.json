@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "question": "Combien font 2 + 2 ?",
+    "solution1": "3",
+    "solution2": "4",
+    "solution3": "5",
+    "solution4": "8",
+    "reponse": "4"
+  },
+  {
+    "id": 2,
+    "question": "Fin de la première GM ?",
+    "solution1": "1820",
+    "solution2": "1916",
+    "solution3": "1918",
+    "solution4": "1920",
+    "reponse": "1918"
+  },
+  {
+    "id": 3,
+    "question": "Lequel de ces aliments n'est pas un fruit ?",
+    "solution1": "Courgette",
+    "solution2": "Raison",
+    "solution3": "Pomme",
+    "solution4": "Cerise",
+    "reponse": "Courgette"
+  },
+  {
+    "id": 4,
+    "question": "Quel l'autre nom de la pomme de terre?",
+    "solution1": "Le caillou croquant",
+    "solution2": "La rosette",
+    "solution3": "Le rond jaune",
+    "solution4": "La patate",
+    "reponse": "La patate"
+  },
+  {
+    "id": 5,
+    "question": "De quel origine est M. Schumacher?",
+    "solution1": "Turc",
+    "solution2": "Anglais",
+    "solution3": "Grecque",
+    "solution4": "Allemand",
+    "reponse": "Allemand"
+  }
+]
+

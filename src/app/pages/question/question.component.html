@@ -1,0 +1,12 @@
+<div>
+  <button class="button-retour" routerLink="/home">Retour à l'accueil</button>
+  <h1>Question {{ questionSelected.id }} :</h1>
+  <p class="infos-points">Points : {{ user.points }}/{{ user.questionRepondues }}</p>
+  <h2>{{ questionSelected.question }}</h2>
+  <div>
+    <button class="button-question" (click)="SendResponse(questionSelected.solution1)">{{ questionSelected.solution1 }}</button>
+    <button class="button-question" (click)="SendResponse(questionSelected.solution2)">{{ questionSelected.solution2 }}</button>
+    <button class="button-question" (click)="SendResponse(questionSelected.solution3)">{{ questionSelected.solution3 }}</button>
+    <button class="button-question" (click)="SendResponse(questionSelected.solution4)">{{ questionSelected.solution4 }}</button>
+  </div>
+</div>

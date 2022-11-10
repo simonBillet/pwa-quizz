@@ -6,6 +6,7 @@
     <p class="last-game">Points : {{ lastUser.points }}/{{ lastUser.questionRepondues }}</p>
   </div>
   <div class="div-start-game">
+    <h2>Nouvelle partie</h2>
     <p for="nameUser">Nom du joueur* :</p>
     <input class="input-name-user" type="text" id="nameUser" name="nameUser" #nameUser>
     <button class="button-start-game" (click)="startGame(nameUser.value)">Lancer une partie</button>
